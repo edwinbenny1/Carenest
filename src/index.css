@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* ===== Full height layout ===== */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove Vite default center layout */
+#root {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+/* ===== Sidebar Custom Scrollbar ===== */
+.sidebar-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 10px;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
